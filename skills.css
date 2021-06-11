@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.back{
+    margin: 200px;
+    margin-left: 400px;
+    margin-top: 70px;
+    margin-right: 400px;
+    background: rgba(0, 0, 0, 0.377);
+}
+h1{
+    text-align: center;
+    color: rgb(247, 37, 0);
+}
+.main{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.skills{
+    margin: 40px;
+    margin-top: 5px;
+    font-size: 18px;
+    color: rgb(29, 28, 28);
+}
+.skills:hover{
+    color: rgb(68, 61, 61);
+}
+.skills p{
+    text-align: center;
+}
+.main-half{
+   display: flex;
+   width: 100%;  
+   padding-left: 30px;
+   margin-top: 0px;
+}
+.skills i{
+    font-size: 80px;
+    padding: 30px;
+    border: 2px tomato solid;
+    color: rgb(122, 116, 116);
+    background: white;
+}
+.skills i:hover{
+    border: 2px rgb(122, 116, 116) solid;
+    color: rgb(230, 38, 4);
+}
+.back-btn{
+    position: relative;
+    top: 138px;
+    left: 320px;
+    border: none;
+    background:tomato;
+    color: rgb(255, 255, 255);
+    padding: 4px;
+    padding-right: 6px;
+    font-size: 16px;
+}
+.back-btn:hover{
+    font-size: 17px;
+    cursor: pointer;
+}
+.next-btn{
+    position: relative;
+    top: 138px;
+    left: 920px;
+    border: none;
+    background:tomato;
+    color: rgb(255, 255, 255);
+    padding: 4px;
+    padding-right: 6px;
+    font-size: 16px;
+   
+}
+.next-btn:hover{
+    font-size: 17px;
+    cursor: pointer;
+}
+#hobtn{
+    position: relative;
+    top:90px ;
+    left: 210px;
+    font-size: 35px;
+    background: rgb(151, 140, 140);
+    border: 1px solid white;
+    color: white;
+    
+}
+#hobtn:hover{
+    color: tomato;
+    background: white;
+    border: 1px solid tomato;
+}
+.next-btn a{
+    text-decoration: none;
+    color: white;
+}
+@media(max-width:575.99px){
+    .back {
+        margin:0px;
+        margin-left:0px;
+        margin-top: 70px;
+        margin-right:0px;
+        width: 575px;
+    }
+    .main {
+        display: block;
+        padding-left: 70px;
+        padding-top: 30px;
+    }
+    .main-half {
+        display: block;
+        width: 100%;
+        padding-left: 70px;
+        margin-top: 0px;
+    }
+    .skills p {
+        position: relative;
+        left: -110px;
+        font-size: 30px;
+    }
+    .back-btn{
+        left: -48px;
+    }
+    .next-btn {
+        left: 238px;
+    }
+    #hobtn{
+        left: 80px;
+        top: 90px;
+    }
+    h1 {
+        padding-left: 20px;
+    }
+    .skills i{
+        padding: 100px;
+    }
+}
